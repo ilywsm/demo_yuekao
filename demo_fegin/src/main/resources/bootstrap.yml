@@ -1,0 +1,21 @@
+
+spring:
+  application:
+    name: demo-fegin
+  cloud:
+    config:
+      lable: master
+      uri: http://127.0.0.1:10080
+      profile: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/1703aa?serverTimezone=UTC
+    username: root
+    password: root
+  jackson:
+    date-format: yyyy-MM-dd
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+    show-sql: true

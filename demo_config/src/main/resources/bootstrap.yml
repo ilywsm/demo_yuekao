@@ -1,0 +1,9 @@
+server:
+  port: 10080
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          search-paths: config_repo
+          uri:

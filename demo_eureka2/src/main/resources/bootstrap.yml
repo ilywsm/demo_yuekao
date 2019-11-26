@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: demo-eureka2
+  cloud:
+    config:
+      lable: master
+      uri: http://127.0.0.1:10080
+      profile: dev
+
